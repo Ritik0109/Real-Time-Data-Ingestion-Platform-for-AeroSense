@@ -1,8 +1,16 @@
 # Real-Time-Data-Ingestion-Platform-for-AeroSense
 
+### About
+Aerosphere is a leader in industrial IoT solutions, providing predictive maintenance and operational insights for heavy machinery. Their devices generate high-volume, real-time telemetry data (sensor readings, operational status, alerts) that needs to be ingested, processed, and analyzed with minimal latency to enable immediate anomaly detection and trigger timely maintenance actions.
 
+### Challenge
+The organization faces delayed anomaly detection due to hourly processing, limited scalability from VM-based workloads, inconsistent downstream data caused by weak ingestion validation, escalating cloud costs from over-provisioned static VMs, and governance gaps stemming from the absence of a centralized data catalog and unified security model.
 
+### Solution
+As a Data Engineer, I built an Real-time Lakehouse Medallion Architecture using ADLS Gen2 and Azure Databricks. The design is highly scalable and can handle high-volume IoT telemetry data efficiently while being cost-effective and providing a governed foundation for advanced analytics.
 
+### Details
+The data is ingested from IoT telemetry data into Azure Event Hubs and uploaded to blob storage through Azure Functions. Here we are utilizing Azure Databricks as the primary processing engine. Using PySpark and Delta Lake, I built ingestion pipelines that automatically load, cleanse, and transform the raw telemetry into the Medallion architecture in near real-time.
 
  ADLS             |  Blob files
 :-------------------------:|:-------------------------:
