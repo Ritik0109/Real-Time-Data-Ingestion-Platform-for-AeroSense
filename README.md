@@ -16,7 +16,7 @@
 
 Bronze ingestion using AutoLoader             |  Analytical Job 
 :-------------------------:|:-------------------------:
-<img width="480" height="270" alt="image" src="https://github.com/user-attachments/assets/8fd2ea05-a094-4907-91cb-0ecb3872d9fc" />  |  <img width="480" height="270" alt="image" src="https://github.com/user-attachments/assets/5e7e14c8-5419-445d-ada0-ebd955c85315" />
+<img width="480" height="270" alt="image" src="https://github.com/user-attachments/assets/5e7e14c8-5419-445d-ada0-ebd955c85315" />  |  <img width="480" height="270" alt="image" src="https://github.com/user-attachments/assets/8fd2ea05-a094-4907-91cb-0ecb3872d9fc" />
 
 
 
